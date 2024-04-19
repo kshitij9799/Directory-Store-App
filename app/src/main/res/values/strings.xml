@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">Directory Store App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lets_get_started">Let\'s Get Started </string>
+    <string name="login">Login</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="phone_no">Phone No</string>
+    <string name="password">Password</string>
+    <string name="hi_username">Hi, Username</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="videos">Videos</string>
+    <string name="recently_added">Recently Added</string>
+    <string name="loren_ipsum">Loren Ipsum</string>
+    <string name="doctor">Doctor</string>
+    <string name="loremipsuemail">loremipsum@gmail.com</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="photos">Photos</string>
+    <string name="app_language">App Language</string>
+    <string name="logout">Logout</string>
+    <string name="username_profile">Username Profile</string>
+    <string name="upload">Upload</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="profession">Profession</string>
+    <string name="education">Education</string>
+    <string name="mother_tongue">Mother Tongue</string>
+    <string name="address">Address</string>
+    <string name="other">Other</string>
+    <string name="child">Child</string>
+    <string name="child_name">Child Name</string>
+    <string name="child_education">Child Education</string>
+    <string name="save">Save</string>
+    <string name="lets_explore">Let\'s Explore</string>
+    <string name="edit_photos">Edit Photos</string>
+    <string name="max_limit_5">(Max Limit 5)</string>
+    <string name="create_post">Create Post</string>
+    <string name="heading">Heading</string>
+    <string name="description">Description</string>
 </resources>
