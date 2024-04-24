@@ -39,10 +39,13 @@
 
 
                 <LinearLayout
+                    android:id="@+id/edit_profile_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:weightSum="3">
+                    android:clickable="true"
+                    android:weightSum="3"
+                    android:focusable="true">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -66,10 +69,13 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/edit_photo_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:weightSum="3">
+                    android:clickable="true"
+                    android:weightSum="3"
+                    android:focusable="true">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -91,10 +97,13 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/app_language_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:weightSum="3">
+                    android:clickable="true"
+                    android:weightSum="3"
+                    android:focusable="true">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -116,10 +125,13 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/logout_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:weightSum="3">
+                    android:clickable="true"
+                    android:weightSum="3"
+                    android:focusable="true">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"

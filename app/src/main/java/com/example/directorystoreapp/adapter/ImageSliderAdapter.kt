@@ -6,6 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
+import com.bumptech.glide.request.RequestOptions
 import com.example.directorystoreapp.R
 import com.squareup.picasso.Picasso
 
@@ -19,7 +22,11 @@ class ImageSliderAdapter(private val context: Context, private val images: List<
     }
 
     override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
-        Picasso.get().load(images[position]).into(holder.imageView)
+        Glide.with(context)
+            .load(images[position])
+            .apply(RequestOptions.overrideOf(900,100))
+            .apply(RequestOptions.bitmapTransform(RoundedCorners(90)))
+            .into(holder.imageView)
     }
 
     override fun getItemCount(): Int = images.size

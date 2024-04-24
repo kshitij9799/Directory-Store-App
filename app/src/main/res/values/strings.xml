@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Directory Store App</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Ravidarpan Directory</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lets_get_started">Let\'s Get Started </string>
     <string name="login">Login</string>
@@ -20,6 +19,7 @@
     <string name="app_language">App Language</string>
     <string name="logout">Logout</string>
     <string name="username_profile">Username Profile</string>
+    <string name="create_user_account">Create User Account</string>
     <string name="upload">Upload</string>
     <string name="full_name">Full Name</string>
     <string name="email_id">Email Id</string>
@@ -36,6 +36,8 @@
     <string name="edit_photos">Edit Photos</string>
     <string name="max_limit_5">(Max Limit 5)</string>
     <string name="create_post">Create Post</string>
+    <string name="create_account">Create Account</string>
     <string name="heading">Heading</string>
     <string name="description">Description</string>
+    <string name="dammy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</string>
 </resources>

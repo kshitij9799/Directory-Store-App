@@ -6,4 +6,8 @@
     <color name="grey">#6F6F6F</color>
     <color name="orange">#E3753E</color>
     <color name="screen_background">#F0F0F0</color>
+    <color name="my_light_primary">#E3753E</color>
+    <color name="text_color_primary">#FF000000</color>
+    <color name="text_color_secondary">#FF000000</color>
+    <color name="text_color_tertiary">#FF000000</color>
 </resources>

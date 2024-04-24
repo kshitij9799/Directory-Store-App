@@ -8,6 +8,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
+import com.bumptech.glide.request.RequestOptions
 import com.example.directorystoreapp.R
 import com.squareup.picasso.Picasso
 
@@ -20,12 +23,15 @@ RecyclerView.Adapter<VideoAdapter.VideoViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: VideoViewHolder, position: Int) {
-        holder.tex.text = images[position]
+        Glide.with(context)
+            .load(images[position])
+            .apply(RequestOptions.bitmapTransform(RoundedCorners(90)))
+            .into(holder.tex)
     }
 
     override fun getItemCount(): Int = images.size
 
     inner class VideoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var tex: TextView = itemView.findViewById(R.id.tex)
+        var tex: ImageView = itemView.findViewById(R.id.tex)
     }
 }

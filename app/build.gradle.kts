@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.ir.backend.js.compile
+
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     alias(libs.plugins.androidApplication)
@@ -52,4 +54,9 @@ dependencies {
     implementation (libs.material)
     implementation (libs.androidx.viewpager2)
     implementation (libs.picasso)
+
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+
+
 }

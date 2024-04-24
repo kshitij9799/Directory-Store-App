@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696328768731",
+    "project_id": "directorystoreapp",
+    "storage_bucket": "directorystoreapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696328768731:android:d3c9bda32c2da8d48ed0fe",
+        "android_client_info": {
+          "package_name": "com.example.directorystoreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvxcIt1uqE4f37NCrdwF6HZ3oqas_96qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
